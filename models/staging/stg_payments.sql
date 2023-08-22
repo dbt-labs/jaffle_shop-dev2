@@ -16,6 +16,7 @@ renamed as (
         payment_method,
         amount as raw_amount_value,
         --`amount` is currently stored in cents, so we convert it to dollars
+        -- add new comment and commit
         amount / 100 as amount
 
     from source
