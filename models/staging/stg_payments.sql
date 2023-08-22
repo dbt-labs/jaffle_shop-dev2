@@ -14,7 +14,7 @@ renamed as (
         id as payment_id,
         order_id,
         payment_method,
-
+        -- this one should trigger on a draft PR with the checkbox chosen
         --`amount` is currently stored in cents, so we convert it to dollars
         amount / 100 as amount
 

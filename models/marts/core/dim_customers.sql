@@ -31,5 +31,5 @@ final as (
     left join customer_payments using (customer_id)
 
 )
-
+-- this should trigger with draft PR with it enabled on job level
 select * from final
