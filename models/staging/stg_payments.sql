@@ -16,6 +16,7 @@ renamed as (
         payment_method,
         -- add a comment about something here to trigger a new run
         --`amount` is currently stored in cents, so we convert it to dollars
+        -- test adding commit doesn't trigger ci on regular draft run
         amount / 100 as amount
 
     from source
