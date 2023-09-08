@@ -1,8 +1,7 @@
 with source as (
 
     {#-
-    Normally we would select from the table here, but we are using seeds to load
-    our data in this project
+    Update this comment here for it to trigger something
     #}
     select * from {{ ref('raw_orders') }}
 
