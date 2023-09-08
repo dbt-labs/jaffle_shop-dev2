@@ -1,7 +1,7 @@
 with source as (
 
     {#-
-    Something smomething words
+    Something something words
     #}
     select * from {{ ref('raw_customers') }}
 
